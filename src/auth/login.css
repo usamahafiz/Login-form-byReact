@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   
+    position: relative;
+    width: 420px;
+    height: 460px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.form-box{
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+}
+.form-box h1{
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+}
+.input-field input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px ;
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin: 20px 0;
+    padding: 20px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.remember label input{
+    accent-color: #fff;
+    margin-right: 4px;   
+}
+.remember a{
+    color: #333;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+.login-button button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px ;
+    border: 1px solid grey;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+button{
+    font-size: 20px;
+    background-color: gray;
+    color: #fff;
+
+    
+}
+.login-button button:hover{
+   background: transparent;
+   color: #000;
+}
+.register-link{
+    text-align: center;
+
+}
+.register-link a{
+    color: #333;
+    text-decoration: none;
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
+
+
+/* Media queries for responsiveness */
+
+/* Small screens (less than 768px) */
+@media (max-width: 767px) {
+    .container {
+      width: 320px;
+      background: #fff;
+      border-radius: 10px;
+      margin: 0 auto;
+    }
+  
+    .form-box h1 {
+      font-size: 40px;
+    }
+  
+    .input-field input,
+    .login-button button {
+      padding: 10px;
+    }
+    label .forget{
+        margin-top: 3px;
+    }
+    
+  }
+  
+  /* Medium screens (between 768px and 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 350px;
+        background: #fff;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+  }
+
